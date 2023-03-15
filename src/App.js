@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import './App.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 function Popup() {
@@ -29,9 +31,10 @@ function Popup() {
 
       <div class="box arrow-left">
         <ul>
-          <a className="list-group-item active" aria-current="true">
-            <img src="https://i.ibb.co/hBY4QVf/reply.png" width="16px" height="16px" />&nbsp;&nbsp; Reply</a>
+          {/* <a className="list-group-item active" aria-current="true"> */}
+            {/* <img src="https://i.ibb.co/hBY4QVf/reply.png" width="16px" height="16px" />&nbsp;&nbsp; Reply</a> */}
 
+            <button class="btn">  <i class="bi bi-reply" ></i> &nbsp; Reply</button>
           <hr width="100%"></hr>
 
           <li class="list-group-item"><img src="https://i.ibb.co/prr9NZC/Icon-feather-flag.png" width="18px" height="18px" />  &nbsp;&nbsp;Flag </li>
@@ -97,9 +100,8 @@ function Popup() {
                 <h3><i class="bi bi-emoji-smile" ></i></h3>
 
                 <h3><i class="bi bi-paperclip"></i></h3>
-                <button >Send Now</button>
-
-              </div>
+                <button> Send Now  &nbsp;&nbsp;| &nbsp;&nbsp; <i class="bi bi-calendar2-week"></i>
+</button>
 
             </div>
 
@@ -108,6 +110,7 @@ function Popup() {
         </div>
       </div>
     </div>
+</div>
 
   )
 }
