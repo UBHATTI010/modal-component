@@ -32,9 +32,9 @@ function Popup() {
       <div class="box arrow-left">
         <ul>
           {/* <a className="list-group-item active" aria-current="true"> */}
-            {/* <img src="https://i.ibb.co/hBY4QVf/reply.png" width="16px" height="16px" />&nbsp;&nbsp; Reply</a> */}
+          {/* <img src="https://i.ibb.co/hBY4QVf/reply.png" width="16px" height="16px" />&nbsp;&nbsp; Reply</a> */}
 
-            <button class="btn">  <i class="bi bi-reply" ></i> &nbsp; Reply</button>
+          <button class="btn">  <i class="bi bi-reply" ></i> &nbsp; Reply</button>
           <hr width="100%"></hr>
 
           <li class="list-group-item"><img src="https://i.ibb.co/prr9NZC/Icon-feather-flag.png" width="18px" height="18px" />  &nbsp;&nbsp;Flag </li>
@@ -56,7 +56,7 @@ function Popup() {
           <div className="Popup">
             <div className="Popup-header">
 
-              <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   🗕︎ &nbsp;&nbsp;&nbsp; ⤢  &nbsp;&nbsp;&nbsp; 🗙︎ </h2>
+              <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   🗕︎ &nbsp;&nbsp;&nbsp; ⤢  &nbsp;&nbsp;&nbsp; 🗙︎ </h2>
 
               <div className="midvalues">
                 <text> <img src="https://i.ibb.co/WfjWvNY/dark-avatar.png" className="rounded-circle img-fluid mb-3" width="25px" height="23px " ></img> &nbsp;
@@ -101,16 +101,16 @@ function Popup() {
 
                 <h3><i class="bi bi-paperclip"></i></h3>
                 <button> Send Now  &nbsp;&nbsp;| &nbsp;&nbsp; <i class="bi bi-calendar2-week"></i>
-</button>
+                </button>
+
+              </div>
+
 
             </div>
-
-
           </div>
         </div>
       </div>
     </div>
-</div>
 
   )
 }
